@@ -1,0 +1,76 @@
+#container{
+    background-color:azure;
+    text-align: center;
+    margin-top: 0px;
+}
+#head{
+    background-color: black;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-top: 0px;
+
+}
+#heading{
+    color: cornsilk;
+}
+#link{
+    list-style-type: none;
+    position: absolute;
+    right:100px;
+    top: 30px;
+
+}
+#l1,#l2{
+    display: inline;
+    color: azure;
+}
+#l11 ,#l22{
+    color: azure;
+}
+.zootopia{
+    text-align: center;
+    height: 90%;
+    width: 80%;
+    padding: 10px 10px 10px 10px;
+    border: inset ;
+    border-color: cadetblue;
+    margin-left: 10px;
+    float: left;
+}
+.introduciton,.actor_introduction,.music,.sidelights{
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    border: solid 1px ;
+    border-color: darkkhaki;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.sidelights{
+    text-align: left;
+}
+#music{
+    position: relative;
+    left: 280px;
+}
+#side{
+    text-align: center;
+    height:2770px;
+    width: 250px;
+    padding: 10px 10px 10px 10px;
+    border: inset;
+    border-color: cadetblue;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+}
+#bottom{
+    height: 5%;
+    background-color: black;
+    clear: both;
+    text-align: center;
+    padding-top: 2px;
+}
+#pid{
+    color: azure;
+    font-size: 20px;
+}

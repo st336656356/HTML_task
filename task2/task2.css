@@ -63,6 +63,9 @@
     margin-left: 10px;
     float: left;
 }
+#sideid{
+    background-color: blue;
+}
 #bottom{
     height: 5%;
     background-color: black;

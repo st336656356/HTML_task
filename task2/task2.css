@@ -37,6 +37,9 @@
     margin-left: 10px;
     float: left;
 }
+#preid{
+    text-size:20px
+}
 .introduciton,.actor_introduction,.music,.sidelights{
     text-align: center;
     padding: 5px 5px 5px 5px;

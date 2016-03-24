@@ -38,7 +38,7 @@
     float: left;
 }
 #preid{
-    text-size:20px
+    font-size:20px;
 }
 .introduciton,.actor_introduction,.music,.sidelights{
     text-align: center;

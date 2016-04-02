@@ -1,0 +1,57 @@
+html,body{
+    width: 100%;
+}
+#top{
+    border: solid 1px ;
+    padding: 20px;
+    background-color: #eee;
+    border-color: #999;
+    height: 500px;
+    margin: 20px;
+    width: 90%;
+}
+#teamhead{
+    background-color: white;
+    border: 1px solid #999;;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    float: left;
+}
+#name{
+    position: absolute;
+    left: 165px;
+    top: 45px;
+    text-transform: capitalize;
+}
+#logo ,#logo1 ,#logo2,#logo3,#logo4,#logo5{
+    border: solid 1px;
+    height: 80px;
+    width: 80px;
+    margin: 3px;
+}
+#individuallogo{
+    text-align: center;
+    background-color: white;
+    border: 1px solid #999;
+    padding: 20px;
+    margin: 10px;
+    width: 120px;
+    float: right;
+}
+#introduction{
+    background-color: white;
+    border: 1px solid #999;
+    padding: 20px;
+    margin: 10px 190px 10px 250px;
+}
+#pid1,#pid2{
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+    width: auto;
+}
+#name1{
+    font-size: 30px;
+}
+

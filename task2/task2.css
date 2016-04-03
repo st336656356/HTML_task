@@ -32,52 +32,72 @@
 }
 #l11 ,#l22{
     color: azure;
+    text-decoration: none;
 }
 .zootopia{
     text-align: center;
     height: 90%;
-    width: 80%;
-    padding: 10px 10px 10px 10px;
-    border: inset ;
-    border-color: cadetblue;
-    margin-left: 10px;
+    width: 75%;
+    padding: 0.8% ;
+    border: solid 2px cadetblue;
+    margin-left: 0.8%;
     float: left;
+    overflow: hidden;
+}
+#pp{
+    position: relative;
+    left: 50%;
+    margin-left: -45%;
+    width: 90%;
 }
 #preid{
+    text-align: left;
+}
+#left_1{
+    height: 90%;
+    width: 100%;
     overflow: hidden;
 }
 .introduciton,.actor_introduction,.music,.sidelights{
     text-align: center;
-    padding: 5px 5px 5px 5px;
+    padding: 0.8%;
     border: solid 1px ;
     border-color: darkkhaki;
     background-color: white;
-    margin-bottom: 10px;
+    margin-bottom: 0.8%;
+}
+.introduciton{
+    overflow: hidden;
 }
 .sidelights{
     text-align: left;
 }
 #music{
     position: relative;
-    left: 18em;
+    left: 50%;
+    margin-left: -25%;
 }
 #side{
     text-align: center;
-    height:175em;
-    width: 15em;
-    padding: 10px 10px 10px 10px;
-    border: inset;
+    height:90%;
+    width: 18%;
+    padding: 0.8%;
+    border: outset;
     border-color: cadetblue;
-    margin-right: 10px;
-    margin-left: 10px;
-    float: left;
+    margin-right: 0.8%;
+    margin-left: 0.8%;
+    float: right;
 }
 #bottom{
     height: 5%;
     background-color: black;
     clear: both;
     text-align: center;
-    padding-top: 2px;
+    padding-top: 1%;
+}
+#p1,#p2,#p3,#p4,#preid{
+    word-wrap: break-word;
+    word-break: break-all;
 }
 #pid{
     color: azure;

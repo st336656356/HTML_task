@@ -51,10 +51,8 @@ function renderAqiList() {
  * 获取用户输入，更新数据，并进行页面呈现的更新
  */
 function addBtnHandle() {
-//    addAqiData();
-    document.getElementById("add-btn").addEventListener("click",addAqiData);
-    document.getElementById("add-btn").addEventListener("click",renderAqiList);
-//    renderAqiList();
+    addAqiData();
+    renderAqiList();
 }
 
 /**
@@ -72,8 +70,12 @@ function delBtnHandle(target) {
 function init() {
 
     // 在这下面给add-btn绑定一个点击事件，点击时触发addBtnHandle函数
-    var x=document.getElementById("add-btn");
-    x.onclick = addBtnHandle();
+//    var x=document.getElementById("add-btn");
+//    x.onclick = function()
+//    {
+//        addBtnHandle();
+//    };
+    document.getElementById("add-btn").addEventListener("click",addBtnHandle);
     // 想办法给aqi-table中的所有删除按钮绑定事件，触发delBtnHandle函数
     var y = document.getElementById("aqi-table");
 
